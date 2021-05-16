@@ -11,11 +11,8 @@ struct ContentView: View {
     var body: some View {
         HStack() {
             ForEach(0..<4) { index in
-                ZStack() {
-                    RoundedRectangle(cornerRadius: 11.0).fill(Color.white)
-                    RoundedRectangle(cornerRadius: 11.0).stroke(lineWidth: 4)
-                    Text("🚙")
-                }
+                CardView()
+  
             }
         }
         .padding()
@@ -24,6 +21,16 @@ struct ContentView: View {
     }
 }
 
+
+struct CardView: View {
+    var body: some View {
+        ZStack() {
+            RoundedRectangle(cornerRadius: 11.0).fill(Color.white)
+            RoundedRectangle(cornerRadius: 11.0).stroke(lineWidth: 4)
+            Text("🚙")
+        }
+    }
+}
 
 
 struct ContentView_Previews: PreviewProvider {
