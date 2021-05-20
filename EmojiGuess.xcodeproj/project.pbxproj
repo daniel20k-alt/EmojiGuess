@@ -11,6 +11,8 @@
 		EE7265792646F59E006E1D26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7265782646F59E006E1D26 /* ContentView.swift */; };
 		EE72657B2646F5A2006E1D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE72657A2646F5A2006E1D26 /* Assets.xcassets */; };
 		EE72657E2646F5A2006E1D26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE72657D2646F5A2006E1D26 /* Preview Assets.xcassets */; };
+		EEF0808B26551903004F9F93 /* LogicBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF0808A26551903004F9F93 /* LogicBoard.swift */; };
+		EEF0808E2656F0CE004F9F93 /* EmojiGuessGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF0808D2656F0CE004F9F93 /* EmojiGuessGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EE72657A2646F5A2006E1D26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE72657D2646F5A2006E1D26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE72657F2646F5A2006E1D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF0808A26551903004F9F93 /* LogicBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicBoard.swift; sourceTree = "<group>"; };
+		EEF0808D2656F0CE004F9F93 /* EmojiGuessGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiGuessGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				EE7265762646F59E006E1D26 /* EmojiGuessApp.swift */,
 				EE7265782646F59E006E1D26 /* ContentView.swift */,
+				EEF0808D2656F0CE004F9F93 /* EmojiGuessGame.swift */,
+				EEF0808A26551903004F9F93 /* LogicBoard.swift */,
 				EE72657A2646F5A2006E1D26 /* Assets.xcassets */,
 				EE72657F2646F5A2006E1D26 /* Info.plist */,
 				EE72657C2646F5A2006E1D26 /* Preview Content */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF0808E2656F0CE004F9F93 /* EmojiGuessGame.swift in Sources */,
+				EEF0808B26551903004F9F93 /* LogicBoard.swift in Sources */,
 				EE7265792646F59E006E1D26 /* ContentView.swift in Sources */,
 				EE7265772646F59E006E1D26 /* EmojiGuessApp.swift in Sources */,
 			);
