@@ -11,7 +11,8 @@ import SwiftUI
 struct EmojiGuessApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let game = EmojiGuessGame()
+            EmojiGuessGameView(viewModel: game)
         }
     }
 }

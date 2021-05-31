@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EE7265772646F59E006E1D26 /* EmojiGuessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7265762646F59E006E1D26 /* EmojiGuessApp.swift */; };
-		EE7265792646F59E006E1D26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7265782646F59E006E1D26 /* ContentView.swift */; };
+		EE7265792646F59E006E1D26 /* EmojiGuessGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7265782646F59E006E1D26 /* EmojiGuessGameView.swift */; };
 		EE72657B2646F5A2006E1D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE72657A2646F5A2006E1D26 /* Assets.xcassets */; };
 		EE72657E2646F5A2006E1D26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE72657D2646F5A2006E1D26 /* Preview Assets.xcassets */; };
 		EEF0808B26551903004F9F93 /* LogicBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF0808A26551903004F9F93 /* LogicBoard.swift */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		EE7265732646F59E006E1D26 /* EmojiGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7265762646F59E006E1D26 /* EmojiGuessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiGuessApp.swift; sourceTree = "<group>"; };
-		EE7265782646F59E006E1D26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE7265782646F59E006E1D26 /* EmojiGuessGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiGuessGameView.swift; sourceTree = "<group>"; };
 		EE72657A2646F5A2006E1D26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE72657D2646F5A2006E1D26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE72657F2646F5A2006E1D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				EE7265762646F59E006E1D26 /* EmojiGuessApp.swift */,
-				EE7265782646F59E006E1D26 /* ContentView.swift */,
+				EE7265782646F59E006E1D26 /* EmojiGuessGameView.swift */,
 				EEF0808D2656F0CE004F9F93 /* EmojiGuessGame.swift */,
 				EEF0808A26551903004F9F93 /* LogicBoard.swift */,
 				EE72657A2646F5A2006E1D26 /* Assets.xcassets */,
@@ -146,7 +146,7 @@
 			files = (
 				EEF0808E2656F0CE004F9F93 /* EmojiGuessGame.swift in Sources */,
 				EEF0808B26551903004F9F93 /* LogicBoard.swift in Sources */,
-				EE7265792646F59E006E1D26 /* ContentView.swift in Sources */,
+				EE7265792646F59E006E1D26 /* EmojiGuessGameView.swift in Sources */,
 				EE7265772646F59E006E1D26 /* EmojiGuessApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
