@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct EmojiGuessGameView: View {
-    var viewModel: EmojiGuessGame
+    @ObservedObject var viewModel: EmojiGuessGame //redraw when changes occured via ObservedObject
+    
     var body: some View {
         HStack() {
             ForEach(viewModel.cards) { card in

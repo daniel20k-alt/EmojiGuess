@@ -8,9 +8,9 @@
 //ViewModel
 import SwiftUI
 
-class EmojiGuessGame {
+class EmojiGuessGame: ObservableObject {
     
-    private var game: LogicBoard<String> = EmojiGuessGame.createGame()
+    @Published private var game: LogicBoard<String> = EmojiGuessGame.createGame()
     
    static func createGame() -> LogicBoard<String> {
         let emojis = ["🐩", "🥤", "🚙"]
@@ -18,7 +18,7 @@ class EmojiGuessGame {
            return emojis[pairIndex]
         }
     }
-    
+  
     //MARK: - Access to the model
     
     var cards: Array<LogicBoard<String>.Card> {
